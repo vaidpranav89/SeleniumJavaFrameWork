@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Test]"
+	guice-stage="DEVELOPMENT" verbose="0">
+	<listeners>
+		<listener class-name="Selenium.Automation2.Listeners" />
+	</listeners>
+	<test thread-count="5" parallel="methods" name="Test(failed)"
+		verbose="0">
+		<classes>
+			<class name="Selenium.Automation2.Homepage_DataProvider">
+				<methods>
+					<include name="addElements" />
+					<include name="initialize" />
+					<include name="teardown" />
+				</methods>
+			</class> <!-- Selenium.Automation2.Homepage_DataProvider -->
+			<class name="Selenium.Automation2.Homepage">
+				<methods>
+					<include name="initialize" />
+					<include name="teardown" />
+					<include name="addElements" />
+				</methods>
+			</class> <!-- Selenium.Automation2.Homepage -->
+		</classes>
+	</test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test] -->

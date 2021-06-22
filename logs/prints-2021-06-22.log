@@ -1,0 +1,6 @@
+12:15:14.018 [main] INFO  resources.base - URL launched--https://www.amazon.co.uk
+12:40:16.586 [main] INFO  resources.base - URL launched--https://www.amazon.co.uk
+21:27:11.383 [main] INFO  resources.base - URL launched--https://www.amazon.co.uk
+21:27:23.954 [main] INFO  resources.base - URL launched--https://www.amazon.co.uk
+21:27:40.196 [main] INFO  resources.base - URL launched--https://www.amazon.co.uk
+23:04:09.072 [TestNG-test=Test-1] INFO  resources.base - URL launched--https://www.amazon.co.uk

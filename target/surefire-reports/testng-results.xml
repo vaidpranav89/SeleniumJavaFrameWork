@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5"
+	failed="0" skipped="0">
+	<reporter-output>
+	</reporter-output>
+	<suite started-at="2021-06-15T22:57:05 BST" name="Test"
+		finished-at="2021-06-15T22:59:35 BST" duration-ms="149719">
+		<groups>
+		</groups>
+		<test started-at="2021-06-15T22:57:05 BST" name="Test"
+			finished-at="2021-06-15T22:59:35 BST" duration-ms="149719">
+			<class name="Selenium.Automation2.Homepage_DataProvider">
+				<test-method is-config="true"
+					signature="initialize()[pri:0, instance:Selenium.Automation2.Homepage_DataProvider@3704122f]"
+					started-at="2021-06-15T22:57:48 BST" name="initialize"
+					finished-at="2021-06-15T22:57:56 BST" duration-ms="8135"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method
+					signature="addElements(java.lang.String,int,int)[pri:0, instance:Selenium.Automation2.Homepage_DataProvider@3704122f]"
+					started-at="2021-06-15T22:57:56 BST" name="addElements"
+					data-provider="name_quantity_index"
+					finished-at="2021-06-15T22:58:22 BST" duration-ms="26046"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[BAT]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[1]]>
+							</value>
+						</param>
+						<param index="2">
+							<value>
+                <![CDATA[7]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- addElements -->
+				<test-method
+					signature="addElements(java.lang.String,int,int)[pri:0, instance:Selenium.Automation2.Homepage_DataProvider@3704122f]"
+					started-at="2021-06-15T22:58:22 BST" name="addElements"
+					data-provider="name_quantity_index"
+					finished-at="2021-06-15T22:58:45 BST" duration-ms="22938"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[Ball]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[1]]>
+							</value>
+						</param>
+						<param index="2">
+							<value>
+                <![CDATA[1]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- addElements -->
+				<test-method
+					signature="addElements(java.lang.String,int,int)[pri:0, instance:Selenium.Automation2.Homepage_DataProvider@3704122f]"
+					started-at="2021-06-15T22:58:45 BST" name="addElements"
+					data-provider="name_quantity_index"
+					finished-at="2021-06-15T22:59:05 BST" duration-ms="20121"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[Projector]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[1]]>
+							</value>
+						</param>
+						<param index="2">
+							<value>
+                <![CDATA[3]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- addElements -->
+				<test-method
+					signature="addElements(java.lang.String,int,int)[pri:0, instance:Selenium.Automation2.Homepage_DataProvider@3704122f]"
+					started-at="2021-06-15T22:59:05 BST" name="addElements"
+					data-provider="name_quantity_index"
+					finished-at="2021-06-15T22:59:25 BST" duration-ms="19834"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[Toy]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[3]]>
+							</value>
+						</param>
+						<param index="2">
+							<value>
+                <![CDATA[11]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- addElements -->
+				<test-method is-config="true"
+					signature="teardown()[pri:0, instance:Selenium.Automation2.Homepage_DataProvider@3704122f]"
+					started-at="2021-06-15T22:59:30 BST" name="teardown"
+					finished-at="2021-06-15T22:59:35 BST" duration-ms="4411"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+			</class> <!-- Selenium.Automation2.Homepage_DataProvider -->
+			<class name="Selenium.Automation2.Homepage">
+				<test-method is-config="true"
+					signature="initialize()[pri:0, instance:Selenium.Automation2.Homepage@88d6f9b]"
+					started-at="2021-06-15T22:57:05 BST" name="initialize"
+					finished-at="2021-06-15T22:57:48 BST" duration-ms="42804"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method
+					signature="addElements()[pri:0, instance:Selenium.Automation2.Homepage@88d6f9b]"
+					started-at="2021-06-15T22:57:56 BST" name="addElements"
+					finished-at="2021-06-15T22:58:22 BST" duration-ms="25902"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- addElements -->
+				<test-method is-config="true"
+					signature="teardown()[pri:0, instance:Selenium.Automation2.Homepage@88d6f9b]"
+					started-at="2021-06-15T22:59:25 BST" name="teardown"
+					finished-at="2021-06-15T22:59:30 BST" duration-ms="5370"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+			</class> <!-- Selenium.Automation2.Homepage -->
+		</test> <!-- Test -->
+	</suite> <!-- Test -->
+</testng-results>

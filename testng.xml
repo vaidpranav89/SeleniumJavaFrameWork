@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test" parallel="true">
+
+	<listeners>
+		<listener class-name="Selenium.Automation2.Listeners" />
+	</listeners>
+
+
+	<test thread-count="10" name="Test">
+		<classes>
+			  <class name="Selenium.Automation2.dataFromJDBC"/>
+		      <class name="Selenium.Automation2.dataDrivenTestFromExcel"/>
+		      <class name="Selenium.Automation2.Homepage"/>
+		      <class name="Selenium.Automation2.Homepage_DataProvider"/>
+		      <class name="Selenium.Automation2.myTest"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
